@@ -1,0 +1,45 @@
+(base) yuelin@Yues-MacBook-Air-2 ~ % cd /Users/yuelin/Documents/GitHub/CSS 
+(base) yuelin@Yues-MacBook-Air-2 CSS % ls
+Computational-Social-Science-Training-Program
+(base) yuelin@Yues-MacBook-Air-2 CSS % git clone 
+https://github.com/florenceyuelin/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+(base) yuelin@Yues-MacBook-Air-2 CSS % ls
+Computational-Social-Science-Projects
+Computational-Social-Science-Training-Program
+(base) yuelin@Yues-MacBook-Air-2 CSS % mkdir Project 1
+(base) yuelin@Yues-MacBook-Air-2 CSS % ls
+1
+Computational-Social-Science-Projects
+Computational-Social-Science-Training-Program
+Project
+(base) yuelin@Yues-MacBook-Air-2 CSS % mkdir Project_1
+(base) yuelin@Yues-MacBook-Air-2 CSS % ls
+Computational-Social-Science-Projects
+Computational-Social-Science-Training-Program
+Project_1
+(base) yuelin@Yues-MacBook-Air-2 CSS % touch commands.txt 
+(base) yuelin@Yues-MacBook-Air-2 CSS % touch /Project_1/commands.txt
+touch: /Project_1/commands.txt: No such file or directory
+(base) yuelin@Yues-MacBook-Air-2 CSS % touch ../Project_1/commands.txt
+touch: ../Project_1/commands.txt: No such file or directory
+(base) yuelin@Yues-MacBook-Air-2 CSS % touch Project_1/commands.txt
+(base) yuelin@Yues-MacBook-Air-2 CSS % nano commands.txt
+(base) yuelin@Yues-MacBook-Air-2 CSS % mv commands.txt 
+Project_1/commands.txt 
+(base) yuelin@Yues-MacBook-Air-2 CSS % nano Project_1/commands.txt
+(base) yuelin@Yues-MacBook-Air-2 CSS % cd 
+/Users/yuelin/Documents/GitHub/CSS/Computational-Social-Science-Projects 
+(base) yuelin@Yues-MacBook-Air-2 Computational-Social-Science-Projects % 
+nano README.md
+(base) yuelin@Yues-MacBook-Air-2 Computational-Social-Science-Projects % 
+git add *
+(base) yuelin@Yues-MacBook-Air-2 Computational-Social-Science-Projects % 
+git remote add origin 
+https://github.com/florenceyuelin/Computational-Social-Science-Projects.git
+(base) yuelin@Yues-MacBook-Air-2 Computational-Social-Science-Projects % 
+git push -u origin main
